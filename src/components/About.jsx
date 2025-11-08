@@ -3,7 +3,6 @@ import React from 'react'
 const About = () => {
   return (
     <div className='container mx-auto px-6 pt-24'>
-        <audio controls src="https://storage.googleapis.com/access-dev-f9540843-2c83-43f1-94f8-636c6418b76b/a5676774-7096-48c0-9994-6b5832168953.mp3"></audio>
 		<section id="about" className="py-24">
             <h2 className="text-3xl font-bold mb-2 accent-color"><span className="text-gray-400 font-mono text-2xl">01.</span> À propos de moi</h2>
             <div className="w-24 h-1 bg-sky-500 mb-8"></div>
