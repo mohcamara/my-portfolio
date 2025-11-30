@@ -84,14 +84,16 @@ const App = () => {
 	}
 
 	return (
-		<div className="relative min-h-screen overflow-hidden">
+		<div className="relative min-h-screen overflow-hidden bg-[#111827]">
 			<ThreeBackground />
-			<Header />
-			<Hero />
-			<About />
-			<Skills />
-			<Projects />
-			<Contacts />
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+				<Header />
+				<Hero />
+				<About />
+				<Skills />
+				<Projects />
+				<Contacts />
+			</div>
 			<button onClick={showModal} id="ai-assistant-button" className="fixed bottom-8 right-8 bg-sky-500 text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center text-3xl hover:bg-sky-600 transition-transform transform hover:scale-110 z-40">
 				✨
 			</button>
