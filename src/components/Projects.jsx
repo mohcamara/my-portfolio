@@ -5,6 +5,33 @@ const Projects = () => {
 
     const projets = [
         {
+            "id": 101,
+            "type": "Systèmes Distribués",
+            "nom": "Distributed Task Scheduler",
+            "description": "Orchestrateur de tâches tolérant aux pannes utilisant l'algorithme de consensus Raft pour l'élection de leader et la distribution de charge.",
+            "technos": ["Go", "gRPC", "Raft", "Docker", "Kubernetes"],
+            "github": "https://github.com/mohcamara/distributed-scheduler",
+            "isLive": false
+        },
+        /*{
+            "id": 102,
+            "type": "Intelligence Artificielle",
+            "nom": "AI Code Reviewer",
+            "description": "Outil CI/CD analysant automatiquement les Pull Requests via LLM pour détecter les failles de sécurité et suggérer des optimisations.",
+            "technos": ["Python", "OpenAI API", "GitHub Actions", "Docker"],
+            "github": "https://github.com/mohcamara/ai-code-reviewer",
+            "isLive": false
+        },
+        {
+            "id": 103,
+            "type": "Full Stack / Temps Réel",
+            "nom": "CollabBoard",
+            "description": "Plateforme de collaboration en temps réel avec résolution de conflits via CRDTs (Yjs) et curseurs partagés.",
+            "technos": ["React", "Node.js", "Socket.io", "Yjs", "Redis"],
+            "github": "https://github.com/mohcamara/collab-board",
+            "isLive": true
+        }, */
+        {
             "id": 1,
             "type": "Projet Académique",
             "nom": "Correct Exam",
@@ -51,29 +78,29 @@ const Projects = () => {
         },
     ]
 
-  return (
-    <div className='container mx-auto px-6 pt-24'>
-      <section id="projects" className="py-24">
-            <h2 className="text-3xl font-bold mb-2 accent-color"><span className="text-gray-400 font-mono text-2xl">03.</span> Projets Réalisés</h2>
-            <div className="w-24 h-1 bg-sky-500 mb-8"></div>
-            <div className="space-y-12">
-                {
-                    projets.map(projet => {
-                        return <Projet 
-                                    key={projet.id}
-                                    type={projet.type} 
-                                    nom={projet.nom} 
-                                    description={projet.description} 
-                                    technos={projet.technos}
-                                    github={projet.github}
-                                    isLive={projet.isLive}
-                                />
-                    })
-                }
-            </div>
-        </section>
-    </div>
-  )
+    return (
+        <div className='container mx-auto px-6 pt-24'>
+            <section id="projects" className="py-24">
+                <h2 className="text-3xl font-bold mb-2 accent-color"><span className="text-gray-400 font-mono text-2xl">03.</span> Projets Réalisés</h2>
+                <div className="w-24 h-1 bg-sky-500 mb-8"></div>
+                <div className="space-y-12">
+                    {
+                        projets.map(projet => {
+                            return <Projet
+                                key={projet.id}
+                                type={projet.type}
+                                nom={projet.nom}
+                                description={projet.description}
+                                technos={projet.technos}
+                                github={projet.github}
+                                isLive={projet.isLive}
+                            />
+                        })
+                    }
+                </div>
+            </section>
+        </div>
+    )
 }
 
 export default Projects
