@@ -5,7 +5,6 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
-import ThreeBackground from './components/ThreeBackground'
 
 const App = () => {
 
@@ -85,7 +84,6 @@ const App = () => {
 
 	return (
 		<div className="relative min-h-screen overflow-hidden">
-			<ThreeBackground />
 			<Header />
 			<Hero />
 			<About />
