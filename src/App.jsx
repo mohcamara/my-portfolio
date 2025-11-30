@@ -84,9 +84,9 @@ const App = () => {
 	}
 
 	return (
-		<div className="relative min-h-screen overflow-hidden bg-[#111827]">
+		<div className="relative min-h-screen overflow-hidden">
 			<ThreeBackground />
-			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+			<div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 max-w-[1600px]">
 				<Header />
 				<Hero />
 				<About />
