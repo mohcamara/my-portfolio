@@ -4,7 +4,7 @@ import Projet from './Projet'
 const Projects = () => {
 
     const projets = [
-        {
+        /*{
             "id": 101,
             "type": "Systèmes Distribués",
             "nom": "Distributed Task Scheduler",
@@ -13,7 +13,7 @@ const Projects = () => {
             "github": "https://github.com/mohcamara/distributed-scheduler",
             "isLive": false
         },
-        /*{
+        {
             "id": 102,
             "type": "Intelligence Artificielle",
             "nom": "AI Code Reviewer",
