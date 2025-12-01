@@ -24,7 +24,7 @@ const App = () => {
 	const textMail = "Rédige un e-mail professionnel et concis d'un recruteur s'adressant à Mohamed Lamine Camara pour exprimer son intérêt pour son profil en vue d'une alternance en ingénierie logicielle. L'e-mail doit être court, engageant et se terminer par une proposition de discussion."
 
 	async function callGeminiAPI(prompt, retries = 3, delay = 1000) {
-		const apiKey = "AIzaSyBrfnzMmXV6MR48MX6tm_n9KcuE5nefawI";
+		const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 		// Updated to a stable model version
 		const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
