@@ -37,7 +37,7 @@ const Projects = () => {
             "nom": "Correct Exam",
             "description": "Une application web complète permettant la correction des examens plus rapidement",
             "technos": ["Java", "Quarkus", "Angular", "MySQL", "Docker", "PaddleOCR"],
-            "github": "www.github.com/repo/",
+            "github": "https://github.com/mohcamara/correct-exam-m1-2025-front",
             "isLive": true
         },
         {
@@ -46,7 +46,7 @@ const Projects = () => {
             "nom": "SantiguiDuMoulin",
             "description": "Une application web complète pour la vente de produits avicoles",
             "technos": ["Java", "Spring Boot", "Angular", "MySQL", "Docker"],
-            "github": "www.github.com/repo/",
+            "github": "https://gitlab.com/stagesantiguidumoulin-group/santiguidumoulin",
             "isLive": false
         },
         {
