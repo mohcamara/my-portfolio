@@ -16,12 +16,17 @@ const Hero = () => {
                     <h1 className="text-5xl md:text-7xl font-extrabold text-gray-100">Mohamed Lamine Camara.</h1>
                     <h2 className="text-4xl md:text-6xl font-extrabold text-gray-400 mt-2">Je conçois des logiciels robustes.</h2>
                     <p className="mt-6 max-w-xl text-gray-300">
-                        Étudiant en Master 1 Ingénierie Logicielle, passionné par la création d'applications performantes et intuitives. Je suis actuellement à la recherche d'une alternance pour mettre en pratique mes compétences.
+                        Étudiant en Master 1 Ingénierie Logicielle, passionné par la création d'applications performantes et intuitives. Je suis actuellement à la recherche d'un stage pour mettre en pratique mes compétences.
                     </p>
                     <div className="mt-8 flex items-center space-x-4">
-                        <a href="src/assets/CV.pdf" download className="bg-sky-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-sky-600 transition-transform transform hover:scale-105 shadow-lg shadow-sky-500/30">
-                            Télécharger mon CV
-                        </a>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                            <a href="#contact" className="bg-sky-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-sky-600 transition-colors">
+                                Me contacter
+                            </a>
+                            <a href="src/assets/CV.pdf" target="_blank" className="bg-transparent border-2 border-sky-500 text-sky-400 font-bold py-3 px-8 rounded-lg hover:bg-sky-500 hover:text-white transition-colors">
+                                Voir mon CV
+                            </a>
+                        </div>
                         <a href="https://github.com/mohcamara" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                         </a>

@@ -60,18 +60,18 @@ const Projects = () => {
         },
         {
             "id": 4,
-            "type": "Projet Personnel",
-            "nom": "Netflix Clone",
-            "description": "Un clone du site web de netflix pour tester mes compétences en UI et css",
+            "type": "Frontend Engineering",
+            "nom": "Netflix UI Replica",
+            "description": "Réplication fidèle de l'interface utilisateur de Netflix pour démontrer la maîtrise du CSS avancé et des animations.",
             "technos": ["React", "CSS"],
             "github": "https://github.com/MdBoulet/netflix-clone",
             "isLive": false
         },
         {
             "id": 5,
-            "type": "Projet Personnel",
-            "nom": "Twitter",
-            "description": "Un clone du site web de twitter pour tester mes compétences en UI et css",
+            "type": "Frontend Engineering",
+            "nom": "Twitter UI Replica",
+            "description": "Réplication de l'interface de Twitter (X) avec focus sur la structure des composants et la réactivité.",
             "technos": ["React", "CSS"],
             "github": "https://github.com/MdBoulet/twitter-clone",
             "isLive": true
