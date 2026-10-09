@@ -16,7 +16,7 @@ const Hero = () => {
                     <h1 className="text-5xl md:text-7xl font-extrabold text-gray-100">Mohamed Lamine Camara.</h1>
                     <h2 className="text-4xl md:text-6xl font-extrabold text-gray-400 mt-2">Je conçois des logiciels robustes.</h2>
                     <p className="mt-6 max-w-xl text-gray-300">
-                        Étudiant en Master 1 Ingénierie Logicielle, passionné par la création d'applications performantes et intuitives. Je suis actuellement à la recherche d'un stage pour mettre en pratique mes compétences.
+                        Étudiant en Master 2 Ingénierie Logicielle, passionné par la création d'applications performantes et intuitives. Je suis actuellement à la recherche d'un stage pour mettre en pratique mes compétences.
                     </p>
                     <div className="mt-8 flex items-center space-x-4">
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
