@@ -94,9 +94,10 @@ const App = () => {
 				<Projects />
 				<Contacts />
 			</div>
-			<button onClick={showModal} id="ai-assistant-button" className="fixed bottom-8 right-8 bg-sky-500 text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center text-3xl hover:bg-sky-600 transition-transform transform hover:scale-110 z-40">
+			
+			{/*<button onClick={showModal} id="ai-assistant-button" className="fixed bottom-8 right-8 bg-sky-500 text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center text-3xl hover:bg-sky-600 transition-transform transform hover:scale-110 z-40">
 				✨
-			</button>
+			</button>*/}
 
 			<div id="ai-assistant-modal" className={show ? "fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-50" : "fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-50 invisible opacity-0"}>
 				<div id="modal-content" className="glass-effect rounded-lg p-8 w-full max-w-2xl max-h-[90vh] flex flex-col">
